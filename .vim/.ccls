@@ -1,0 +1,14 @@
+-isystem
+/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0
+-isystem
+/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu
+-isystem
+/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward
+-isystem
+/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include
+-isystem
+/usr/local/include
+-isystem
+/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed
+-isystem
+/usr/include
