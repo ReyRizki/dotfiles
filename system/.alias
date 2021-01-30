@@ -1,1 +1,3 @@
 alias gt="sh ~/.scripts/generate_template.sh"
+
+alias ec="ln -s ~/dotfiles/.vim/.editorconfig"

@@ -1,1 +1,42 @@
-/home/reyrizki/.vim/coc-settings.json
+{
+    "languageserver": {
+        "ccls": {
+            "command": "ccls",
+            "args": ["--log-file=/tmp/ccls.log", "-v=1"],
+	    "filetypes": [
+                "c",
+                "cpp",
+                "objc",
+                "objcpp"
+            ],
+            "rootPatterns": [
+                ".ccls",
+                "compile_commands.json"
+            ],
+            "initializationOptions": {
+                "cache": {
+                    "directory": "/tmp/ccls"
+                },
+		"client": {
+		    "snippetSupport": true
+		},
+		"index": {
+		    "onChange": true
+		},
+		"highlight": {
+		    "lsRanges": true
+		}
+            }
+        }
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.filetypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "coc.preferences.formatOnSaveFiletypes": [
+    	"javascript",
+    	"javascriptreact",
+    	"typescript",
+    	"typescriptreact"
+    ],
+    "tsserver.formatOnType": true,
+    "coc.preferences.formatOnType": true
+}
